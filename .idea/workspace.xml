@@ -1,7 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88d0c25f-cc53-4977-a42a-5c36b8ff7c1d" name="Default Changelist" comment="" />
+    <list default="true" id="88d0c25f-cc53-4977-a42a-5c36b8ff7c1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagehoster/oldresources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagehoster/oldresources/templates/images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagehoster/oldresources/templates/images/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagehoster/oldresources/templates/images/image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagehoster/oldresources/templates/images/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagehoster/oldresources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagehoster/oldresources/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagehoster/oldresources/templates/users/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagehoster/oldresources/templates/users/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/config/jpaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/controller/ImageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/model/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/model/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/model/UserProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/repository/ImageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/repository/TagRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/services/ImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/services/TagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/tmpapp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/tachyons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/images/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/images/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/users/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmpApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster" beforeDir="false" afterPath="$PROJECT_DIR$/imagehoster" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/config/jpaConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/controller/ImageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/model/Image.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/model/UserProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/repository/ImageRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/services/ImageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/services/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/tmpapp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/resources/templates/images.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/resources/templates/images/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/resources/templates/images/image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/resources/templates/images/upload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/resources/templates/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/resources/templates/users/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/resources/templates/users/registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/templates/images.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/templates/images/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/templates/images/image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/templates/images/upload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/templates/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/templates/users/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/templates/users/registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/config/jpaConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/controller/ImageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/model/Image.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/model/UserProfile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/repository/ImageRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/services/ImageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/services/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/tmpapp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/target/tmp-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/tmp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster/tmpApp.iml" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +154,9 @@
     </expand>
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="tmpApp" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -69,16 +164,27 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1c2BMC6M9nOhd5ZkhP648VIKtJo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ImageHoster_solution_13/ImageHoster" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ImageHoster_stub/ImageHoster" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.41724136" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -149,11 +255,30 @@
       <updated>1589716757529</updated>
       <workItem from="1589716763708" duration="8705000" />
       <workItem from="1589743838312" duration="5134000" />
-      <workItem from="1589749579501" duration="5361000" />
+      <workItem from="1589749579501" duration="6193000" />
+      <workItem from="1589780053847" duration="497000" />
+      <workItem from="1589780595747" duration="4529000" />
+      <workItem from="1589788320483" duration="305000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
