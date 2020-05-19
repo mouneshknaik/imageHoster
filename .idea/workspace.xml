@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="88d0c25f-cc53-4977-a42a-5c36b8ff7c1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tmpapp/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tmpapp/controller/ImageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/images/image.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tmpapp/controller/ImageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tmpapp/controller/ImageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tmpapp/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tmpapp/repository/CommentRepository.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +61,16 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="imageHoster@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="imageHoster: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="comment: table" type="69fad909:PgImplModel$LocalTable" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -198,7 +205,7 @@
       <workItem from="1589833962591" duration="622000" />
       <workItem from="1589834904464" duration="1463000" />
       <workItem from="1589836395412" duration="12593000" />
-      <workItem from="1589900347569" duration="3380000" />
+      <workItem from="1589900347569" duration="4202000" />
     </task>
     <servers />
   </component>

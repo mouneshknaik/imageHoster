@@ -30,8 +30,8 @@ public class CommentRepository {
     public List<Comment> getAllComments(Integer imageId) {
         EntityManager em = emf.createEntityManager();
 
-        TypedQuery<Comment> typedQuery = em.createQuery("SELECT t from Comment t ", Comment.class);
-//        .setParameter("imageId", imageId);
+        TypedQuery<Comment> typedQuery = em.createQuery("select c from Comment c where c.image.id=:imageId", Comment.class)
+        .setParameter("imageId", imageId);
         List<Comment> resultList = typedQuery.getResultList();
         return resultList;
 
