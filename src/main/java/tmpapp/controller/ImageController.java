@@ -38,22 +38,24 @@ public class ImageController {
 
     @RequestMapping("/images/{imageId}/{title}")
     public String showImage(@PathVariable("imageId") Integer imageId, Model model) {
+        Comment commentData=new Comment();
+        model.addAttribute("Comment",commentData);
         Image image = imageService.getImage(imageId);
         model.addAttribute("image", image);
         model.addAttribute("tags", image.getTags());
-        List<Comment> comment=commentService.getCommentsByImageId(imageId);
-        model.addAttribute("comments",comment);
+        List<Comment> comment = commentService.getCommentsByImageId(imageId);
+        model.addAttribute("comments", comment);
         return "images/image";
     }
 
     @RequestMapping(value = "/image/{imageId}/{title}/comments", method = RequestMethod.POST)
-    public String commentUser(@PathVariable(name = "imageId") Integer imageId, HttpSession session, Comment commentData) {
+    public String commentUser(@PathVariable(name = "imageId") Integer imageId, HttpSession session,Comment commentData) {
         User user = (User) session.getAttribute("loggeduser");
         commentData.setUser(user);
         commentData.setCreatedDate(new Date());
         Image image = imageService.getImage(imageId);
-        Comment commentDta=new Comment();
-//        System.out.println(commentFormdata.getText());
+//        Comment commentDta = new Comment();
+        System.out.println(commentData.getText());
         System.out.println("commentData");
         commentData.setImage(image);
 //        commentData.setText();
