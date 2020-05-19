@@ -2,97 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88d0c25f-cc53-4977-a42a-5c36b8ff7c1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagehoster/oldresources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagehoster/oldresources/templates/images.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagehoster/oldresources/templates/images/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagehoster/oldresources/templates/images/image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagehoster/oldresources/templates/images/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagehoster/oldresources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagehoster/oldresources/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagehoster/oldresources/templates/users/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagehoster/oldresources/templates/users/registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/config/jpaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/controller/ImageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/model/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/model/Tag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/model/UserProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/repository/ImageRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/repository/TagRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/services/ImageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/services/TagService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/tmpapp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/tachyons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/images.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/images/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/images/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/users/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tmpapp/services/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/90dd9941-7020-46ef-926d-2e8b8d8a7646.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/90dd9941-7020-46ef-926d-2e8b8d8a7646.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/90dd9941-7020-46ef-926d-2e8b8d8a7646/storage_v2/_src_/database/imageHoster.kB2ebg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/90dd9941-7020-46ef-926d-2e8b8d8a7646/storage_v2/_src_/database/imageHoster.kB2ebg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster" beforeDir="false" afterPath="$PROJECT_DIR$/imagehoster" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/config/jpaConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/controller/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/controller/ImageController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/model/Image.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/model/UserProfile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/repository/ImageRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/services/ImageService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/services/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/java/tmpapp/tmpapp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/resources/templates/images.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/resources/templates/images/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/resources/templates/images/image.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/resources/templates/images/upload.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/resources/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/resources/templates/layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/resources/templates/users/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/src/main/resources/templates/users/registration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/templates/images.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/templates/images/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/templates/images/image.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/templates/images/upload.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/templates/layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/templates/users/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/templates/users/registration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/config/jpaConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/controller/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/controller/ImageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/model/Image.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/model/UserProfile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/repository/ImageRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/services/ImageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/services/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/classes/tmpapp/tmpapp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/target/tmp-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/tmp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagehoster/tmpApp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagehoster" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tmpapp/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tmpapp/controller/ImageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tmpapp/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tmpapp/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tmpapp/services/ImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tmpapp/services/ImageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tmpapp/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tmpapp/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/images.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/tmpApp.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/images.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/images/image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/users/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/users/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tmpapp/controller/ImageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tmpapp/controller/ImageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tmpapp/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tmpapp/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tmpapp/services/ImageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tmpapp/services/ImageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tmpapp/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tmpapp/services/UserService.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,6 +85,26 @@
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="imageHoster@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="imageHoster: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="images_tags: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="imageHoster@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="imageHoster: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="users: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
     </expand>
     <select />
   </component>
@@ -181,10 +135,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ImageHoster_stub/ImageHoster" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.41724136" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -198,7 +153,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.tmpapp (1)">
+    <configuration name="tmpapp (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tmp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tmpapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tmpapp.tmpapp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="tmpapp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="tmpApp" />
       <extension name="coverage">
@@ -214,6 +182,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.tmpapp (1)" />
         <item itemvalue="Spring Boot.tmpapp" />
       </list>
     </recent_temporary>
@@ -225,17 +194,17 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e4b30df0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9c798066" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e4b30df0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@195ab866" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9c798066" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@649f147e" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e4b30df0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@469dd842" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9c798066" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@5995d578" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -258,7 +227,12 @@
       <workItem from="1589749579501" duration="6193000" />
       <workItem from="1589780053847" duration="497000" />
       <workItem from="1589780595747" duration="4529000" />
-      <workItem from="1589788320483" duration="305000" />
+      <workItem from="1589788320483" duration="1495000" />
+      <workItem from="1589790291374" duration="2880000" />
+      <workItem from="1589824519189" duration="9216000" />
+      <workItem from="1589833962591" duration="622000" />
+      <workItem from="1589834904464" duration="1463000" />
+      <workItem from="1589836395412" duration="11895000" />
     </task>
     <servers />
   </component>

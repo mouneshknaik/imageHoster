@@ -5,6 +5,8 @@ import org.springframework.stereotype.Service;
 import tmpapp.model.User;
 import tmpapp.repository.UserRepository;
 
+import java.util.regex.Pattern;
+
 @Service
 public class UserService {
     @Autowired
@@ -21,5 +23,8 @@ public class UserService {
     }
     public void registerUser(User newUser) {
         userRepository.registerUser(newUser);
+    }
+    public Boolean validatePassword(String password){
+        return Pattern.compile("(?=.*[a-zA-Z])(?=.*\\d)(?=.*[@#$%!]).{4,40}").matcher(password).matches();
     }
 }
